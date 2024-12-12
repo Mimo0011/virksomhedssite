@@ -13,3 +13,49 @@ h1 {
 body {
   background-color: var(--backgroundcolor);
 }
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  z-index: 100;
+  margin-bottom: 10%;
+}
+
+.burger-menu .line {
+  width: 30px;
+  height: 4px;
+  background-color: #3f477f;
+}
+
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 250px;
+    height: 600px;
+    list-style-type: none;
+    margin-top: 0%;
+    padding-top: 160px;
+    padding-left: 80px;
+    background-color: var(--backgroundcolor);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  li img {
+    width: 200px;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+}

@@ -1,0 +1,21 @@
+.galleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 70px;
+}
+
+.galleri img {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 70px;
+  }
+
+  .galleri img {
+    max-width: 100%;
+  }
+}

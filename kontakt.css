@@ -1,0 +1,35 @@
+.img_tekst_overlay {
+    position: relative;
+    display: inline-block;
+}
+
+
+.img_tekst_overlay img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.tekst_overlay {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.tekst_overlay h2 {
+    font-size: 250%;
+    margin-bottom: -10px;
+}
+
+
+.tekst_overlay p {
+    margin-top: 0;
+    font-size: 80%;
+    line-height: 0.8;
+    color: #141D71;
+}

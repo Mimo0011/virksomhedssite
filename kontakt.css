@@ -8,7 +8,7 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 120%;
 }
 
 .tekst_overlay {
@@ -20,13 +20,13 @@
 }
 
 .tekst_overlay h2 {
-  font-size: 200%;
+  font-size: 250%;
   margin-bottom: -10px;
 }
 
 .tekst_overlay p {
   margin-top: 0;
-  font-size: 70%;
+  font-size: 3cqw;
   line-height: 0.5;
   color: #141d71;
 }
@@ -42,8 +42,17 @@
     margin-top: -200px;
   }
 
+  .tekst_overlay p {
+    font-size: 1.7cqw;
+  }
+
+  .tekst_overlay h2 {
+    font-size: 5cqw;
+    margin-bottom: -10px;
+  }
+
   .tekst_overlay {
-    font-size: 170%;
+    font-size: 2cqw;
     margin-top: 2%;
   }
 }

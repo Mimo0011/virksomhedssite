@@ -149,5 +149,6 @@ a:visited {
   h1 {
     font-size: 200px;
     text-align: center;
+    margin-top: 40px;
   }
 }

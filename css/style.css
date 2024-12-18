@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(57, 15, 15);
+  color: rgb(163, 120, 100);
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  color: antiquewhite;
+  padding: 10px 20px;
+  z-index: 10;
+  font-family: Didot;
+  letter-spacing: 2px;
+}
+
+header a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+header img {
+  cursor: pointer;
+}
+
+.nav_menu {
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  gap: 50px;
+  z-index: 10;
+}
+
+.nav_menu a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  height: 100px !important;
+  width: auto !important;
+  z-index: 10;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 85vh;
+}
+
+.video_container {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.video_container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  padding-top: 20px;
+}
+
+.text_container {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.text_container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: didot;
+}
+
+.text_container p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  font-family: Palatino;
+}
+
+.text_container .spaced {
+  margin-bottom: 35px;
+}
+
+.menu_container img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+footer {
+  padding: 20px 10px;
+  font-family: Didot;
+  letter-spacing: 1px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  margin-top: 100px;
+}
+
+.footer_right {
+  text-align: right;
+  flex: 1;
+  margin-right: 80px;
+}
+
+.footer_left {
+  text-align: left;
+  flex: 1;
+  margin-left: 80px;
+}
+
+.footer_social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialmedia_logo {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.text_container {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.text_visible {
+  opacity: 1;
+}

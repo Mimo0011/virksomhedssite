@@ -14,8 +14,10 @@ h2 {
 
 a,
 p {
-  font-family: "Thabit", sans-serif;
-  font-style: normal;
+  font-family: Didot;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  font-size: smaller;
 }
 
 body {
@@ -151,4 +153,9 @@ a:visited {
     text-align: center;
     margin-top: 40px;
   }
+}
+.logo img {
+  height: 100px !important;
+  width: auto !important;
+  z-index: 10;
 }

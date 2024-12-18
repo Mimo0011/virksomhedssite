@@ -31,6 +31,13 @@
   color: #141d71;
 }
 
+.lottie {
+  position: absolute;
+  left: 15%;
+  top: 66%;
+  width: 23%;
+}
+
 @media (min-width: 768px) {
   .img_tekst_overlay {
     display: flex;
@@ -40,6 +47,10 @@
     max-width: 60%;
     margin: 0 auto;
     margin-top: -200px;
+  }
+
+  .img_tekst_overlay {
+    position: relative;
   }
 
   .tekst_overlay p {
@@ -54,5 +65,12 @@
   .tekst_overlay {
     font-size: 2cqw;
     margin-top: 2%;
+  }
+
+  .lottie {
+    position: absolute;
+    left: 15%;
+    top: 66%;
+    width: 23%;
   }
 }

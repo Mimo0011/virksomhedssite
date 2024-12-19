@@ -300,4 +300,40 @@ a:visited {
     color: var(--backgroundcolor);
     text-decoration: none;
   }
+
+  /* FOOTER */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+  }
+
+  footer img {
+    max-width: 80px;
+  }
+
+  footer a {
+    color: var(--backgroundcolor);
+  }
+
+  footer p {
+    color: var(--backgroundcolor);
+  }
+}
+
+/* FOOTER */
+footer img {
+  max-width: 50px;
+}
+
+footer {
+  margin-left: 30px;
+}
+
+footer a {
+  color: var(--backgroundcolor);
+}
+
+footer p {
+  color: var(--backgroundcolor);
 }

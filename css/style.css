@@ -199,14 +199,14 @@ footer {
 }
 
 /* LINK DECORATION */
-/* a:link {
+a:link {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 a:visited {
   color: rgb(0, 0, 0);
   text-decoration: none;
-} */
+}
 
 /* MOBILE SCREEN */
 @media (max-width: 768px) {
@@ -311,6 +311,11 @@ a:visited {
 
   footer img {
     max-width: 80px;
+  }
+
+  footer a,
+  footer a:visited {
+    color: rgb(0, 0, 0);
   }
 }
 

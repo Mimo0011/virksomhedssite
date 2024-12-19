@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/kgl1xny.css" />
-    <link href="https://fonts.cdnfonts.com/css/thabit" rel="stylesheet" />
-    <meta name="robots" content="noindex" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="favicon.svg" />
 
-    <link rel="stylesheet" href="general.css" />
+</head>
+<body>
+    <div class="video_container">
+        <video autoplay loop muted playsinline style="width:100; height:auto;">
+            <source src="assets/intro_cafeintime.mp4" type="video/mp4">
+        </video>
+        </div>
 
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="burger-menu" id="burgerMenu">
+    <header class="header">
+     <div class="burger-menu" id="burgerMenu">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
@@ -22,11 +24,9 @@
 
       <nav>
         <ul id="navLinks">
-          <div>
             <li>
               <a href="index.html"><img src="logo.svg" alt="Logo" /></a>
             </li>
-          </div>
           <div id="menu">
             <li>
               <a href="index.html">Forside</a>
@@ -49,26 +49,46 @@
     </header>
 
     <main>
-      <div>
-        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-        <dotlottie-player src="https://lottie.host/89d97ef5-97aa-4f61-b3b1-0e5a3ad64f9f/iUr8vjOQCw.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
-      </div>
+        <div class="text_container">
+            <h1>Velkommen til Café Intime</h1>
+            <p>
+                Træd ind på den historiske jazzbar, som har været en del af Københavns bybillede siden 1922. Med sin fransk-inspirerede charme, levende lys og live-musik hver aften er det et sted, hvor folk samles om musikken og hinanden.
+                <br class="spaced">
+                Uanset om du er her for en få en sludder i baren eller en festlig aften, har Café Intime altid været et inkluderende sted, hvor alle er velkomne. Her kan du føle dig hjemme, uanset hvem du er, eller hvor du kommer fra.
+                <br class="spaced">
+                Kom forbi, få en drink, og oplev en unik perle på Frederiksberg!</p>
+            </div>
+        </div>
+
+        <div class="menu_container">
+            <img src="assets/menukort.png" alt="Drinkskort" style="width:100%; height: 80%;">
+        </div>
+        
     </main>
 
     <footer>
       <div>
         <p>Café Intime</p>
-        <p>Åbningstider</p>
-        <a href="https://maps.app.goo.gl/gRjmrZboLSXevGQq7">Allegade 25, 2000 Frederiksberg</a>
+        <p>Mandag - Søndag 16.00 - 02.00</p>
+        <a href="https://maps.app.goo.gl/gRjmrZboLSXevGQq7"
+          >Allegade 25, 2000 Frederiksberg</a
+        >
       </div>
 
       <div>
         <p>Følg os:</p>
-        <a href="https://www.instagram.com/cafeintimecph/"><img src="instagram.webp" alt="instagram" /></a>
+        <a href="https://www.instagram.com/cafeintimecph/"
+          ><img src="instagram.webp" alt="instagram"
+        /></a>
 
-        <a href="https://www.facebook.com/profile.php?id=100063558881515"><img src="facebook.webp" alt="facebook" /></a>
+        <a href="https://www.facebook.com/profile.php?id=100063558881515"
+          ><img src="facebook.webp" alt="facebook"
+        /></a>
       </div>
+      <script src="js.js"></script>
     </footer>
+    <script src="javascript/script.js"></script>
     <script src="js.js"></script>
+
   </body>
-</html>
+  </html>

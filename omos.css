@@ -10,7 +10,6 @@ main img {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   max-width: 65%;
   margin: 0 auto;
 }

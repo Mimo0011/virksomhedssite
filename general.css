@@ -71,12 +71,18 @@ a:visited {
     width: 250px;
     height: 600px;
     list-style-type: none;
-    margin-top: 0%;
+    margin-top: 10%;
     padding-top: 160px;
     padding-left: 100px;
     background-color: var(--backgroundcolor);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
+  }
+
+  .logo img {
+    height: 100px; /* Höjd på logotypen */
+    width: auto; /* Bevarar proportionerna */
+    opacity: 0%;
   }
 
   li img {
@@ -106,18 +112,22 @@ a:visited {
     margin-top: 50px;
     margin-left: 30px;
   }
+
+  main {
+    margin-top: -40%;
+  }
 }
 
 /* COMPUTER SCREEN */
 @media (min-width: 768px) {
   /* NAV MENU BAR */
 
-  nav ul {
+  /* nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-  }
+  } */
 
   li,
   footer p,
@@ -125,7 +135,7 @@ a:visited {
     font-size: 20px;
   }
 
-  #menu {
+  /* #menu {
     display: flex;
     justify-content: space-between;
     width: 600px;
@@ -135,7 +145,7 @@ a:visited {
 
   nav ul li a img {
     width: 200px;
-  }
+  } */
 
   /* FOOTER */
   footer {
@@ -153,17 +163,49 @@ a:visited {
     text-align: center;
     margin-top: 40px;
   }
+
+  nav {
+    display: flex;
+    align-items: center; /* Vertikal centrering */
+    justify-content: space-between; /* Logotyp till vänster, meny till höger */
+    padding: 0 50px; /* Justerar utrymme från kanterna */
+  }
+
+  .logo {
+    flex-shrink: 0; /* Förhindrar att logotypen krymper */
+  }
+
+  .logo img {
+    height: 100px; /* Höjd på logotypen */
+    width: auto; /* Bevarar proportionerna */
+  }
+
+  #navLinks {
+    display: flex; /* Gör att länkarna visas i rad */
+    gap: 30px; /* Skapar utrymme mellan länkar */
+    list-style: none; /* Tar bort punkterna */
+    margin: 0;
+    padding: 0;
+  }
+
+  #navLinks li {
+    font-family: Didot, serif;
+    font-size: 20px;
+  }
+
+  #navLinks li a {
+    text-decoration: none; /* Tar bort understrykning */
+    font-weight: normal; /* Normal textvikt */
+  }
 }
 .logo img {
-  height: 100px !important;
-  width: auto !important;
+  height: 100px;
+  width: auto;
   z-index: 10;
 }
 
-
 @font-face {
-  font-family: 'Thabit';
-  src: url('/fonts/Thabit.woff2') format('woff2');
+  font-family: "Thabit";
+  src: url("/fonts/Thabit.woff2") format("woff2");
   font-display: swap;
 }
-

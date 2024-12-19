@@ -1,8 +1,10 @@
 p {
   font-size: larger;
-  color: rgb(79, 41, 41);
+  color: rgb(30, 29, 29);
   width: 100%;
   display: grid;
+  font-family: Didot;
+  letter-spacing: 2px;
 }
 
 main img {
@@ -19,23 +21,25 @@ h2 {
   margin-top: -7%;
 }
 
-h3 {
-  font-family: "Thabit", sans-serif;
-  font-style: normal;
+h3,
+h4 {
+  font-family: Didot;
+  letter-spacing: 2px;
   font-size: large;
-  color: rgb(92, 45, 45);
+  color: rgb(46, 40, 40);
   display: flex;
   justify-content: center;
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
   margin-top: 2%;
+  font-size: 20px;
 }
-h4 {
+/* h4 {
   font-family: "Thabit", sans-serif;
   font-style: normal;
   color: rgb(92, 45, 45);
   display: flex;
   justify-content: center;
   font-size: large;
-}
+} */
